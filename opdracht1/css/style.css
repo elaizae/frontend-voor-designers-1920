@@ -103,8 +103,8 @@ section{
     grid-row-gap:1em;
     margin: 0 16.5em;
     max-width: 66%;
-    overflow: hidden;
-    
+    overflow-x: hidden;
+     overflow-y: hidden;
     
     
 }
