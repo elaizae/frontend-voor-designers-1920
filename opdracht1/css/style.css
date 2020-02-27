@@ -13,7 +13,7 @@ html {
     overflow: hidden;
     font-family: 'Ubuntu', sans-serif;
     cursor: img("../img/cursor.svg");
-    
+    overflow: hidden;
 }
 
 body
