@@ -12,14 +12,22 @@ first.addEventListener("click", function() {
   element.classList.toggle("clicked");
 });
 
-// here im showing the details 
+// here im showing the details - disabled bc i used type numbers and not classes.
+// 
 
-var orange= document.querySelectorAll("h4")[2];
-var detail = document.querySelectorAll("article")[6];
+ var orange= document.querySelectorAll("h4")[2];
+var detail = document.querySelectorAll("div")[0];
 orange.addEventListener("click", function() {
-  detail.classList.toggle("show");
+  detail.classList.toggle("zien");
 });
+/*
+var purple= document.querySelectorAll("h4")[3];
+var info = document.querySelectorAll("article")[7];
+purple.addEventListener("click", function() {
+  info.classList.toggle("show2");
+});*/
 
+// list items and selected state
 var second= document.querySelectorAll("button")[1];
 var thing = document.querySelectorAll("svg")[1];
 second.addEventListener("click", function() {
@@ -33,19 +41,19 @@ third.addEventListener("click", function() {
 });
 
 var list= document.querySelectorAll("button")[0];
-var uno = document.querySelectorAll("li")[4];
+var uno = document.querySelectorAll("li")[8];
 list.addEventListener("click", function() {
   uno.classList.toggle("showmeorange");
 });
 
 var lijst= document.querySelectorAll("button")[1];
-var dos = document.querySelectorAll("li")[5];
+var dos = document.querySelectorAll("li")[9];
 lijst.addEventListener("click", function() {
   dos.classList.toggle("showmepurple");
 });
 
 var lista= document.querySelectorAll("button")[2];
-var tres = document.querySelectorAll("li")[6];
+var tres = document.querySelectorAll("li")[10];
 lista.addEventListener("click", function() {
   tres.classList.toggle("showmeyellow");
 });
@@ -53,7 +61,7 @@ lista.addEventListener("click", function() {
 /* draggable */ 
 /* var dragged;
 
-/* events fired on the draggable target 
+ events fired on the draggable target 
 document.addEventListener("drag", function() {
 
 }, false);
@@ -70,7 +78,7 @@ document.addEventListener("dragend", function() {
   event.target.style.opacity = "";
 }, false);
 
-/* events fired on the drop targets 
+events fired on the drop targets 
 document.addEventListener("dragover", function() {
   // prevent default to allow drop
   event.preventDefault();
