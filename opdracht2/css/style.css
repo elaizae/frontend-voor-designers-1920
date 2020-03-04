@@ -109,6 +109,9 @@ main {
 }
 
 .fifth {
+    background-image: url(../img/p ot.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     margin-top: 4em;
     height: 15em;
     grid-column: 3 / 4;
@@ -138,13 +141,58 @@ aside {
 
 }
 
+li {
+    list-style: none;
+}
+
 .options li:not(.notifs) {
-    margin: auto 1em;
+    margin-top: 1.5em;
+}
+
+.closer {
+    margin-right: 2em;
+    background-color: #999A9F;
+    border-radius: 0 1em 1em 0;
+    padding: 0.1em 0.2em 0em;
+    border: solid 1px white;
+}
+
+.evencloser {
+    margin-right: 0em;
+    margin-top: 1em;
+    border-radius: 1em 0 0 1em;
+    padding: 0.1em 0.2em 0em;
+    background-color: #999A9F;
+    border: solid 1px white;
+}
+
+.closest {
+    margin-right: 3em;
+}
+
+svg .closest {
+    width: 0.5em;
+    border: solid 1px red;
 }
 
 .notifs {
-    margin: auto 22em auto 1em;
+    margin: auto 27em auto 1em;
 
+}
+
+/* svg notif */
+.cls-1 {
+    fill: #606060;
+}
+
+.cls-2 {
+    fill: #ebd9c0;
+}
+
+svg:first-of-type {
+    align-content: center;
+    width: 1.5em;
+    z-index: 100;
 }
 
 .profile {
@@ -196,6 +244,40 @@ button {
 
 }
 
+.badge {
+    position: absolute;
+    top: 1.2em;
+    right: 30.5em;
+    padding: 0.3em;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    z-index: 101;
+}
+
 footer {
     margin: 0;
+}
+
+@media (prefers-color-scheme: dark) {
+
+    body {
+        background-color: #2B6461;
+    }
+
+    .popular {
+        background-color: #5CB6B7;
+    }
+
+    aside {
+        background-image: url(../img/iam.svg);
+        background-color: #F0B3B5;
+    }
+
+    button {
+        background-color: #94866B;
+    }
+
+
+
 }
