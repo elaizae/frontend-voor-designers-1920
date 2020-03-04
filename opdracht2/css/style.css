@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+
+}
+
+html {
+    overflow: hidden;
+}
+
+h1 {
+    padding: 0.5em;
+}
+
+h2 {
+    margin-left: 1em;
+    font-size: 1em;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: #F1DEDA;
+
+}
+
+/* left side */
+main {
+
+    height: 47em;
+}
+
+.popular {
+    display: flex;
+    background-color: #D5DBEC;
+    border-radius: 0 2em 2em 0;
+    max-width: 95%;
+
+    justify-content: center;
+
+}
+
+.popular article {
+    display: inline-flex;
+    background-color: white;
+    width: 10em;
+    height: 10em;
+    border-radius: 2em;
+    margin: 1.5em 0.5em;
+}
+
+.timeline {
+    margin-top: 1.5em;
+    ;
+    margin-bottom: 0;
+    max-width: 95%;
+    padding: 0;
+    height: 40em;
+}
+
+.timeline h2 {
+    margin-left: 1.5em;
+}
+
+.timeline article {
+
+    background-color: white;
+    min-width: 12.5em;
+    min-height: 10em;
+    border-radius: 2em;
+}
+
+.friends {
+    display: grid;
+    max-width: 82.1%;
+    max-height: 50%;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 30% 40% 30%;
+    margin-left: 7em;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+
+}
+
+.first {
+
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+.second {
+
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.second article {
+
+    background-color: aqua;
+}
+
+.third {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+
+.forth {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.fifth {
+    margin-top: 4em;
+    height: 15em;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
+}
+
+/* right side */
+aside {
+    border-radius: 2em 0 0 2em;
+    background-color: white;
+    background-image: url(../img/iwas.svg);
+    background-repeat: no-repeat;
+    background-size: 35em;
+    border: 2px solid white;
+    width: 95%;
+    margin-left: 2.5em;
+    height: 97%;
+
+}
+
+.options {
+    margin: auto 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    height: 4.25em;
+
+}
+
+.options li:not(.notifs) {
+    margin: auto 1em;
+}
+
+.notifs {
+    margin: auto 22em auto 1em;
+
+}
+
+.profile {
+    background-color: fuchsia;
+    width: 12em;
+    height: 12em;
+    position: relative;
+    margin-top: 0em;
+    margin-left: 11em;
+    border-radius: 50%;
+}
+
+button {
+    background-color: #D5DBEC;
+    border-radius: 2em;
+    padding: 1em;
+    margin: auto;
+    border: none;
+
+
+}
+
+.personal {
+    justify-content: center;
+    position: relative;
+    margin: 1em 11em;
+}
+
+.bio {
+
+    width: 60%;
+    height: 6em;
+    border-radius: 2em;
+    margin: auto;
+    padding: 1em;
+}
+
+.music {
+    display: flex;
+    margin: 0.5em;
+}
+
+.music article {
+    width: 11em;
+    height: 11.6em;
+    background-color: aliceblue;
+    margin: 2em 0.5em;
+    border-radius: 2em;
+
+}
+
+footer {
+    margin: 0;
+}
