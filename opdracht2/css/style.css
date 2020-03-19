@@ -175,6 +175,7 @@ svg .closest {
     border: solid 1px red;
 }
 
+
 .notifs {
     margin: auto 27em auto 1em;
 
@@ -189,10 +190,22 @@ svg .closest {
     fill: #ebd9c0;
 }
 
+.cls-5 {
+    fill: #fff;
+}
+
+.cls-6 {
+    fill: #fff;
+}
+
 svg:first-of-type {
     align-content: center;
     width: 1.5em;
     z-index: 100;
+}
+
+svg {
+    cursor: pointer;
 }
 
 .profile {
@@ -211,8 +224,12 @@ button {
     padding: 1em;
     margin: auto;
     border: none;
+    cursor: pointer;
 
+}
 
+button:hover {
+    background-color: plum;
 }
 
 .personal {
@@ -278,6 +295,7 @@ footer {
         background-color: #94866B;
     }
 
+    .cls-6 {
+        fill: transparent;
 
-
-}
+    }
