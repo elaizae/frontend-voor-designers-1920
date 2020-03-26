@@ -1,87 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap');
+
 html {
-    background-color: #F5CEC7;
+    background-color: #0F074F;
+    overflow: hidden;
+    font-family: 'Baloo Da 2', cursive;
+
+
+
 }
 
 body {
-    background-color: #F5CEC7;
+    background-color: ;
+    margin: 0;
+
+
+
 }
 
-article {
+h1 {
+    margin: 0;
+    background-color: white;
+    color: #F2BE5C;
+    padding: 0.2em;
+}
+
+nav {
+    float: left;
+    width: 10em;
+    height: 38em;
+    margin: 3em 1em 1em 1em;
+
+    background-color: #9fcae3;
+    border-radius: 1em;
+    margin-right: 2em;
+
+}
+
+nav {}
+
+h2 {
+    margin: 0.5em
+}
+
+h3 {
+    color: white;
+}
+
+
+li {
+    list-style: none;
+    margin: 2em 0;
+}
+
+.middle {
+    overflow: scroll;
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    max-height: 38em;
+    margin: 2em 15em 0em;
+
+
+}
+
+.middle > article {
+    border-radius: 1em;
+    padding: 0.5em;
+    background-color: white;
+    width: 30em;
+    height: 8em;
+    margin: 1em auto;
+    overflow: hidden;
+
+
+}
+
+aside > article {
+    display: none;
+}
+
+.middle .active {
+    height: 100%;
+}
+
+.letsgo {
+    display: block;
+}
+
+div {
+    display: flex;
+
+}
+
+div button {
+    background-color: #F2BE5C;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 0 0.5em;
+    min-width: 6em;
+    border: none;
+    cursor: pointer;
+}
+
+div button:hover {
+    background-color: #9fcae3;
+    color: white;
+}
+
+.middle button {
+    width: 2.5em;
+    height: 2.5em;
+    background-color: transparent;
+    background-image: url(../img/informatie.svg);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    border: none;
+    float: right;
+    margin-top 1em;
+    position: static;
+    fill: red;
+
+}
+
+p:nth-child(6) {}
+
+button {
+    cursor: pointer;
+}
+
+aside {
+
+    position: absolute;
+    width: 20em;
+    height: 38em;
+    margin: 1em;
+    right: 0;
+    top: 5em;
+    background-color: #ffc7dc;
+    border-radius: 2em;
+
+
+}
+
+.profile {
+
+    width: 8em;
+    height: 8em;
+
+    margin: 1em 6em;
+
+    border-radius: 50%;
+}
+
+
+
+
+.personal {
+    justify-content: center;
+    position: relative;
+    margin: 1em 4em;
+}
+
+.personal button {
+    background-color: #9fcae3;
+    border-radius: 2em;
+    padding: 1em;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+}
+
+.personal button:hover {
     background-color: white;
 }
 
-    {}
-
-button {
-    -webkit-tap-highlight-color: transparent;
-    --blue: #007bff;
-    --indigo: #6610f2;
-    --purple: #6f42c1;
-    --pink: #e83e8c;
-    --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
-    --green: #28a745;
-    --teal: #20c997;
-    --cyan: #17a2b8;
-    --white: #fff;
-    --gray: #6c757d;
-    --gray-dark: #343a40;
-    --primary: #007bff;
-    --secondary: #6c757d;
-    --success: #28a745;
-    --info: #17a2b8;
-    --warning: #ffc107;
-    --danger: #dc3545;
-    --light: #f8f9fa;
-    --dark: #343a40;
-    --breakpoint-xs: 0;
-    --breakpoint-sm: 576px;
-    --breakpoint-md: 768px;
-    --breakpoint-lg: 992px;
-    --breakpoint-xl: 1200px;
-    --font-family-sans-serif: -apple-system,
-        BlinkMacSystemFont,
-        "Segoe UI",
-        Roboto,
-        "Helvetica Neue",
-        Arial,
-        sans-serif,
-        "Apple Color Emoji",
-        "Segoe UI Emoji",
-        "Segoe UI Symbol";
-    --font-family-monospace: SFMono-Regular,
-        Menlo,
-        Monaco,
-        Consolas,
-        "Liberation Mono",
-        "Courier New",
-        monospace;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: inherit;
-    overflow: visible;
-    text-transform: none;
-    -webkit-appearance: button;
-    font-weight: 400;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    user-select: none;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    border-radius: .25rem;
-    transition: color .15s ease-in-out,
-        background-color .15s ease-in-out,
-        border-color .15s ease-in-out,
-        box-shadow .15s ease-in-out;
-    color: #28a745;
-    background-color: transparent;
-    background-image: none;
-    border-color: #28a745;
-    display: inline-block;
-    width: 50%;
-    cursor: pointer;
+.bio {
+    z-index: 200;
+    width: 60%;
+    height: 6em;
+    border-radius: 2em;
+    margin: auto;
+    padding: 1em;
 }
