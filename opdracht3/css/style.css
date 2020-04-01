@@ -12,16 +12,42 @@ html {
 body {
     background-color: ;
     margin: 0;
+}
 
+button:focus {
+    outline: 0;
+}
 
+.theme {
+    margin: -3.5em 1em;
 
+    float: right;
+    border-radius: 50%;
+    border: none;
+    width: 2em;
+    height: 2em;
+    background-image: url(../img/day.svg);
+    background-color: #F2BE5C;
+    background-repeat: no-repeat;
+    background-size: 2em;
+    color: transparent;
+
+}
+
+.night {
+    background-color: transparent;
+    background-image: url(../img/night.svg);
+    background-size: 2em;
 }
 
 h1 {
     margin: 0;
     background-color: white;
     color: #F2BE5C;
-    padding: 0.2em;
+}
+
+.day {
+    background-color: #FFC5A5;
 }
 
 nav {
@@ -39,7 +65,27 @@ nav {
 nav {}
 
 h2 {
-    margin: 0.5em
+    margin: 0.5em;
+    float: right;
+    top: 1em;
+
+}
+
+p:nth-child(6) {
+    margin: 9.7em 0.5em;
+
+}
+
+p {
+    top: 2em;
+}
+
+.showittoo {
+    opacity: 1;
+}
+
+.recommended h2 {
+    color: white;
 }
 
 h3 {
@@ -56,23 +102,47 @@ li {
     overflow: scroll;
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
-    max-height: 38em;
+    width: 63%;
+    height: 35em;
     margin: 2em 15em 0em;
 
 
+}
+
+article img {
+    width: 10em;
+    float: left;
+    margin: 0.5em;
 }
 
 .middle > article {
     border-radius: 1em;
     padding: 0.5em;
     background-color: white;
-    width: 30em;
-    height: 8em;
+    width: 33em;
+    height: 15em;
     margin: 1em auto;
     overflow: hidden;
 
 
+}
+
+.latest p {
+    color: white;
+    position: absolute;
+    top: 18em;
+    right: 44em;
+}
+
+.latest img {
+    width: 16em;
+    position: absolute;
+    top: 20em;
+    right: 40em;
+    overflow: hidden;
+    margin: auto;
+
+    z-index: 600;
 }
 
 aside > article {
@@ -80,7 +150,7 @@ aside > article {
 }
 
 .middle .active {
-    height: 100%;
+    height: auto;
 }
 
 .letsgo {
@@ -122,7 +192,7 @@ div button:hover {
 
 }
 
-p:nth-child(6) {}
+
 
 button {
     cursor: pointer;
