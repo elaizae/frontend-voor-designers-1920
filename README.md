@@ -1,6 +1,4 @@
-# Frontend voor Designers 1920
-
-mijn 3 opdrachten:
+mijn 3 Fvd opdrachten:
 
 1. [Opdracht 1: Een Micro-interactie uitwerken en testen](opdracht1/)
 ![alt text](./img/one.png "screenshot opdr 1")
