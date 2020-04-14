@@ -40,6 +40,25 @@ button:focus {
     background-size: 2em;
 }
 
+.col {
+    margin: -3.5em 4em;
+
+    float: right;
+
+    border: none;
+    width: 3em;
+    height: 2em;
+    background-image: url(../img/three.svg);
+
+    background-repeat: no-repeat;
+    background-size: 3em;
+    color: transparent;
+}
+
+.two {
+    background-image: url(../img/two.svg);
+}
+
 h1 {
     margin: 0;
     background-color: white;
@@ -52,7 +71,7 @@ h1 {
 
 nav {
     float: left;
-    width: 10em;
+    width: 9.9em;
     height: 38em;
     margin: 3em 1em 1em 1em;
 
@@ -62,23 +81,22 @@ nav {
 
 }
 
-nav {}
+
 
 h2 {
-    margin: 0.5em;
-    float: right;
-    top: 1em;
+    margin: 1em;
+
 
 }
+
+
 
 p:nth-child(6) {
-    margin: 9.7em 0.5em;
+    margin: 0.5em 0.5em;
 
 }
 
-p {
-    top: 2em;
-}
+
 
 .showittoo {
     opacity: 1;
@@ -96,35 +114,79 @@ h3 {
 li {
     list-style: none;
     margin: 2em 0;
+    padding: 0.4em;
+}
+
+li:hover {
+    background-image: url(../img/hover.svg);
+    background-repeat: no-repeat;
+}
+
+.weare:hover {
+    background-image: url(../img/activated.svg);
+}
+
+.weare {
+    background-image: url(../img/activated.svg);
+    background-repeat: no-repeat;
+    color: white;
 }
 
 .middle {
     overflow: scroll;
     display: flex;
     flex-wrap: wrap;
-    width: 63%;
+    width: 40%;
     height: 35em;
-    margin: 2em 15em 0em;
+    margin: 2em 25em 0em;
 
 
 }
 
 article img {
-    width: 10em;
-    float: left;
-    margin: 0.5em;
+    width: 8em;
+    top: 1em;
+    position: static;
+    /* float: left;*/
+
+}
+
+.changeme {
+    width: 30%;
+    margin: 2em 30em;
+
+
 }
 
 .middle > article {
-    border-radius: 1em;
-    padding: 0.5em;
+
+    padding: 0.1em;
     background-color: white;
-    width: 33em;
-    height: 15em;
-    margin: 1em auto;
+    width: 8em;
+    height: 11.9em;
+    margin: 0.5em;
     overflow: hidden;
+    position: relative;
+}
 
+article p {
+    margin: 1em;
 
+}
+
+.middle button {
+    margin: 0 0 -1em;
+    width: 2.2em;
+    height: 2.1em;
+    position: absolute;
+    float: right;
+    border-radius: 50%;
+    border: solid 1px;
+    background-color: white;
+    background-image: url(../img/informatie.svg);
+    background-repeat: no-repeat;
+    background-size: 2em;
+    z-index: 8000;
 }
 
 .latest p {
@@ -145,16 +207,23 @@ article img {
     z-index: 600;
 }
 
-aside > article {
-    display: none;
-}
+
 
 .middle .active {
-    height: auto;
+    height: 30em;
+    width: 15em;
+    overflow: scroll;
 }
+
+
 
 .letsgo {
     display: block;
+}
+
+
+article:focus {
+    background-color: aqua;
 }
 
 div {
@@ -176,23 +245,6 @@ div button:hover {
     background-color: #9fcae3;
     color: white;
 }
-
-.middle button {
-    width: 2.5em;
-    height: 2.5em;
-    background-color: transparent;
-    background-image: url(../img/informatie.svg);
-    background-repeat: no-repeat;
-    background-size: 2em;
-    border: none;
-    float: right;
-    margin-top 1em;
-    position: static;
-    fill: red;
-
-}
-
-
 
 button {
     cursor: pointer;
