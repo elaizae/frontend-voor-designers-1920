@@ -18,7 +18,7 @@ Ik heb hierna de breakdown schets gemaakt en begonnen met de vormgeving.
 
 breakdown schets:
 
-(././img/breakdown.png "screenshot opdr 3")
+![alt text] (././img/breakdown.png "screenshot opdr 3")
 
 Uiteindelijke idee:
 een socialmedia website waar je films kan kijken en mensen kunnen je volgen en zien welke films jij hebt geliked. de pagina die ik voor opdracht 3 ga maken is de profiel pagina. Je kan hier al je favoriete films zien en daarnaast je account bewerken. ik ga de films dus inladen.
