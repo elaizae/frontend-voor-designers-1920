@@ -1,5 +1,7 @@
 # frontend voor designers - opdracht 3: Een interactie uitwerken met externe data
 
+[Opdracht 3: Een interactie uitwerken met externe data] 
+
 eigenlijk is opdracht 3 een combinatie van de eerste twee opdrachten in combinatie met het laden van informatie van een externe bron.
 ik wou ook de css elementen die ik hiervoor heb gebruikt weer gebruiken.
 
