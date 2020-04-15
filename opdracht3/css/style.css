@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Baloo+Da+2&display=swap');
 
 html {
-    background-color: #0F074F;
-    overflow: hidden;
+    background-color: #F4F5F9;
+    overflow: scroll;
     font-family: 'Baloo Da 2', cursive;
 
 
@@ -20,7 +20,9 @@ button:focus {
 
 .theme {
     margin: -3.5em 1em;
-
+    top: 1.5em;
+    position: sticky;
+    z-index: 301;
     float: right;
     border-radius: 50%;
     border: none;
@@ -38,21 +40,23 @@ button:focus {
     background-color: transparent;
     background-image: url(../img/night.svg);
     background-size: 2em;
+
 }
 
 .col {
+    position: sticky;
     margin: -3.5em 4em;
-
+    top: 1.5em;
     float: right;
-
+    left: 2em;
     border: none;
     width: 3em;
     height: 2em;
     background-image: url(../img/three.svg);
-
     background-repeat: no-repeat;
     background-size: 3em;
     color: transparent;
+    z-index: 301;
 }
 
 .two {
@@ -62,21 +66,33 @@ button:focus {
 h1 {
     margin: 0;
     background-color: white;
+    padding: 0 0.5em;
     color: #F2BE5C;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
 }
 
 .day {
-    background-color: #FFC5A5;
+    background-color: #733232;
 }
 
+
+
+
+
 nav {
+    position: fixed;
     float: left;
     width: 9.9em;
     height: 38em;
     margin: 3em 1em 1em 1em;
 
-    background-color: #9fcae3;
+    background-color: #FCB2AF;
     border-radius: 1em;
+
     margin-right: 2em;
 
 }
@@ -103,11 +119,12 @@ p:nth-child(6) {
 }
 
 .recommended h2 {
-    color: white;
+    color: #ADD9D9;
 }
 
 h3 {
-    color: white;
+    margin-left: 13em;
+    color: #ADD9D9;
 }
 
 
@@ -127,13 +144,13 @@ li:hover {
 }
 
 .weare {
-    background-image: url(../img/activated.svg);
+    background-image: url(../img/hover.svg);
     background-repeat: no-repeat;
-    color: white;
+    color: #ADD9D9;
 }
 
 .middle {
-    overflow: scroll;
+
     display: flex;
     flex-wrap: wrap;
     width: 40%;
@@ -189,22 +206,32 @@ article p {
     z-index: 8000;
 }
 
+.news {
+    border-radius: 1.5em;
+
+    background-color: #ADD9D9;
+    height: 10em;
+    width: 33em;
+    margin: 3em 0 0.5em 15em;
+
+    overflow: hidden;
+    position: relative;
+}
+
 .latest p {
-    color: white;
+    color: #ADD9D9;
     position: absolute;
-    top: 18em;
+    top: 22em;
     right: 44em;
 }
 
 .latest img {
     width: 16em;
     position: absolute;
-    top: 20em;
+    top: 24em;
     right: 40em;
     overflow: hidden;
     margin: auto;
-
-    z-index: 600;
 }
 
 
@@ -222,9 +249,6 @@ article p {
 }
 
 
-article:focus {
-    background-color: aqua;
-}
 
 div {
     display: flex;
@@ -232,10 +256,11 @@ div {
 }
 
 div button {
-    background-color: #F2BE5C;
+
+    background-color: #F2A74B;
     border-radius: 2em;
     padding: 1em;
-    margin: 0 0.5em;
+    margin: 0 0.5em 0 22em;
     min-width: 6em;
     border: none;
     cursor: pointer;
@@ -248,17 +273,18 @@ div button:hover {
 
 button {
     cursor: pointer;
+
 }
 
 aside {
 
-    position: absolute;
+    position: fixed;
     width: 20em;
     height: 38em;
     margin: 1em;
     right: 0;
     top: 5em;
-    background-color: #ffc7dc;
+    background-color: #FFFFFF;
     border-radius: 2em;
 
 

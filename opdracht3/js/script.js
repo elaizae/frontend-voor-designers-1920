@@ -125,14 +125,14 @@ change.addEventListener("click", function () {
 
 // clicks on arrowUp and arrowDown will change the theme 
 document.onkeydown = function (e) {
-    if (e.keyCode == 38) {
+    if (e.keyCode == 78) {
         icon.click();
 
     }
-    if (e.keyCode == 40) {
+    if (e.keyCode == 68) {
         change.click();
     }
-
+    // click 2 for 2 collumns and 3 for 3
     if (e.keyCode == 50)
         first.click();
 
@@ -153,13 +153,3 @@ var three = document.querySelector(".col");
 three.addEventListener("click", function () {
     three.classList.toggle("two");
 });
-
-/* document.onreadystatechange = function() { 
-    if (document.readyState !== "complete") { 
-        document.querySelector(".middle").style.visibility = "hidden"; 
-        document.querySelector("#loader").style.visibility = "visible"; 
-    } else { 
-        document.querySelector("#loader").style.display = "none"; 
-        document.querySelector(".middle").style.visibility = "visible"; 
-    } 
-}; */
