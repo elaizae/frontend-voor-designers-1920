@@ -7,7 +7,7 @@ mijn 3 Fvd opdrachten:
 ![alt text](./img/two.png "screenshot opdr 2")
 
 3. [Opdracht 3: Een interactie uitwerken met externe data](opdracht3/)
-![alt text](./img/three.png "screenshot opdr 3")
+![alt text](./img/three2.png "screenshot opdr 3")
 ---
 - [Markup cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 - [Getting started with GitHub Pages](https://guides.github.com/features/pages/)
