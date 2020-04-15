@@ -4,6 +4,7 @@
 
 /*eslint 'no-console': 0*/
 
+// geladen  json content moet in de section met class middle
 var section = document.querySelector('.middle');
 
 //code of movies te laten zien na het klikken van het knopje "all"
@@ -13,15 +14,11 @@ laatzien.addEventListener("click", function showMovie() {
     loadContent();
 });
 
-/*var laatCrimezien = document.querySelector(".crime");
-laatCrimezien.addEventListener("click", function showCrime() {
-    section.innerHTML = "";
-    loadContent();
-});
-
-*/
 
 
+
+
+//  json wordt geladen
 var requestURL = 'https://raw.githubusercontent.com/KoopReynders/frontendvoordesigners/master/opdracht3/json/movies.json';
 
 function loadContent() {
@@ -41,6 +38,7 @@ function loadContent() {
     };
 }
 
+// section elementen worden aangemaakt
 function showMovie(jsonObj) {
     var info = jsonObj;
     for (var i = 0; i < info.length; i++) {
@@ -53,39 +51,24 @@ function showMovie(jsonObj) {
         var myPara3 = document.createElement('p');
         var myPara4 = document.createElement('p');
 
-        // code below from stackoverflow modified to fit my code
-        //    https://stackoverflow.com/questions/42143031/filter-json-by-key-value
-
-
-
-
-
-        //end of stackoverflow code
-
+        // json strings in de elementen        
         myH2.textContent = info[i].title;
         myCover.src = info[i].cover;
         myPara1.textContent = info[i].genres;
         myPara2.textContent = 'Release: ' + info[i].release_date;
         myPara3.textContent = info[i].plot;
-        // myPara4.textContent = info[i].plot;
 
-
-
-
+        //Alles gaat in de article element die ik eerder heb aangemaakt
         myArticle.appendChild(infoButton);
         myArticle.appendChild(myCover);
-
         myArticle.appendChild(myH2);
         myArticle.appendChild(myPara1);
         myArticle.appendChild(myPara2);
         myArticle.appendChild(myPara3);
         myArticle.appendChild(myPara4);
 
-
-
-
+        //article gaat in de section
         section.appendChild(myArticle);
-
         infoButton.onclick = function () {
             console.log(this);
             this.parentElement.classList.toggle('active');
@@ -100,18 +83,13 @@ function showMovie(jsonObj) {
 
         };
 
-
-
-
     }
-
 
 }
 
 
 
-
-// code of theme van de pagina te veranderen
+// code of thema van de pagina te veranderen van day naar night mode
 var icon = document.querySelector(".theme");
 icon.addEventListener("click", function () {
     icon.classList.toggle("night");
@@ -140,8 +118,7 @@ document.onkeydown = function (e) {
         first.click();
 };
 
-
-
+// code om kollomen meer en minder te maken
 var first = document.querySelector(".col");
 var element = document.querySelector(".middle");
 first.addEventListener("click", function () {
