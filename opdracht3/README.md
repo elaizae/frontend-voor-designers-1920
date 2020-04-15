@@ -4,7 +4,7 @@ ik wou ook de css elementen die ik hiervoor heb gebruikt weer gebruiken.
 
 
 idee:
-een socialmedia website waar je films kan kijken en mensen kunnen je volgen en zien welke films jij hebt geliked.
+een socialmedia website waar je films kan kijken en mensen kunnen je volgen en zien welke films jij hebt geliked. de pagina die ik voor opdracht 3 ga maken is de profiel pagina. Je kan hier al je favoriete films zien en daarnaast je account bewerken. ik ga de films dus inladen.
 
 breakdown schets:
 
@@ -32,5 +32,8 @@ dit kan je ook veranderen door op 2 of op 3 te drukken op je toetsenbord.
 
 CSS:
 ik wou ook de css elementen die ik heb gebruikt in de eerste twee opdrachten combineren in opdracht 3.
+
+Geleerd:
+Ik ben oke in HTML en CSS en ik kan zeker websites mooi laten uitzien maar ik kon nog echt veel van javascript. Ik heb gedurende FvD veel geëxperimenteerd en gelezen over meer technieken die door andere mensen worden gebruikt. 
 
 
