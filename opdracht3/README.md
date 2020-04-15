@@ -4,8 +4,6 @@ eigenlijk is opdracht 3 een combinatie van de eerste twee opdrachten in combinat
 ik wou ook de css elementen die ik hiervoor heb gebruikt weer gebruiken.
 
 
-
-
 Werkwijze:
 
 Mijn eerste idee was een makeup website waar je kan zoeken maar na enige onderzoek en een paar keer geprobeerd is dat mij niet gelukt. 
@@ -26,10 +24,10 @@ UI stack:
 - als je op de pagina komt dan zie je niks.
 ik heb een illustratie getekend voor mijn eerste opdracht die ik hier weer hebt gebruikt om duidelijk te maken dat het om de blank state gaat.
 
-- je kan op "all" klikken dan laad het data.
-ideal state
 
-- daarna kan je bij elke film op de "i" klikken om meer informatie te kunnen zien.
+- je kan op "all" klikken dan laad het data om de ideal state te krijgen.
+
+daarna kan je bij elke film op de "i" klikken om meer informatie te kunnen zien.
 extra informatie over de films zoals genre en discriptie.
 
 UI events:
