@@ -17,7 +17,7 @@ ik heb eerst andere API's proberen te vinden die meer films beschikbaar hadden m
 Ik heb hierna de breakdown schets gemaakt en begonnen met de vormgeving.
 
 breakdown schets:
-
+(breakdown/)
 ![alt text] (././img/breakdown.png "screenshot opdr 3")
 
 Uiteindelijke idee:
