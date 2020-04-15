@@ -17,7 +17,7 @@ ik heb eerst andere API's proberen te vinden die meer films beschikbaar hadden m
 Ik heb hierna de breakdown schets gemaakt en begonnen met de vormgeving.
 
 breakdown schets:
-
+./img/breakdown.png
 
 Uiteindelijke idee:
 een socialmedia website waar je films kan kijken en mensen kunnen je volgen en zien welke films jij hebt geliked. de pagina die ik voor opdracht 3 ga maken is de profiel pagina. Je kan hier al je favoriete films zien en daarnaast je account bewerken. ik ga de films dus inladen.
