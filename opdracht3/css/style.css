@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    background-color: ;
+
     margin: 0;
 }
 
@@ -105,14 +105,18 @@ h2 {
 
 }
 
-
+p {
+    margin: 0 1em;
+}
 
 p:nth-child(6) {
     margin: 0.5em 0.5em;
 
 }
 
-
+.welcome {
+    margin-bottom: -0.5em;
+}
 
 .showittoo {
     opacity: 1;
@@ -139,9 +143,7 @@ li:hover {
     background-repeat: no-repeat;
 }
 
-.weare:hover {
-    background-image: url(../img/activated.svg);
-}
+
 
 .weare {
     background-image: url(../img/hover.svg);
@@ -186,8 +188,8 @@ article img {
     position: relative;
 }
 
-article p {
-    margin: 1em;
+article > p {
+    margin: 1em 1.5em;
 
 }
 
@@ -310,7 +312,7 @@ aside {
 }
 
 .personal button {
-    background-color: #9fcae3;
+    background-color: #ADD9D9;
     border-radius: 2em;
     padding: 1em;
     margin: auto;
@@ -319,7 +321,7 @@ aside {
 }
 
 .personal button:hover {
-    background-color: white;
+    background-color: #FCB2AF;
 }
 
 .bio {
